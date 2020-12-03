@@ -28,9 +28,14 @@
       </div>
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-two-thirds">
-          <h1 class="landing-page__page_title">
-            <%= sanitize(t("transition_landing_page.page_header")) %>
-          </h1>
+          <div class="landing-page__title-container">
+            <%= render "govuk_publishing_components/components/heading", {
+              text: sanitize(t("transition_landing_page.page_header")),
+              heading_level: 1,
+              font_size: "xl",
+              margin_bottom: 4,
+            } %>
+          </div>
         </div>
       </div>
       <div class="govuk-grid-row">
