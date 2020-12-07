@@ -731,30 +731,6 @@ E09000033:
     - alert_level: 2
       start_date: 2020-12-02
       start_time: "00:01"
-E07000004:
-  name: Aylesbury Vale District Council
-  restrictions:
-    - alert_level: 2
-      start_date: 2020-12-02
-      start_time: "00:01"
-E07000005:
-  name: Chiltern District Council
-  restrictions:
-    - alert_level: 2
-      start_date: 2020-12-02
-      start_time: "00:01"
-E07000006:
-  name: South Bucks District Council
-  restrictions:
-    - alert_level: 2
-      start_date: 2020-12-02
-      start_time: "00:01"
-E07000007:
-  name: Wycombe District Council
-  restrictions:
-    - alert_level: 2
-      start_date: 2020-12-02
-      start_time: "00:01"
 E07000008:
   name: Cambridge City Council
   restrictions:
