@@ -53,6 +53,7 @@
           invalid: error_key.present?,
           autocomplete: "postal-code",
           width: 10,
+          value: @search&.input,
         } %>
 
         <%= render "govuk_publishing_components/components/button",
